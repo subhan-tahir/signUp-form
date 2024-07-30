@@ -1,0 +1,51 @@
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign up Form</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="form-container">
+        <h1>Sign Up Form</h1>
+        <form action="https://www.codinglabweb.com/">
+        <div class="inp-field email-error">
+          <input type="email" id="email"  placeholder="Enter your email" />
+          <div class="error-field">
+            <i class="fa-solid fa-circle-exclamation"></i>
+             <p class="error">Please enter a valid email.</p>
+             </div>
+        </div>
+        <div class="inp-field pass-error">
+          <input  type="password" id="password" placeholder="Enter your password" />
+          <div class="error-field">
+         <i class="fa-solid fa-circle-exclamation"></i>
+          <p class="error">Please enter atleast 8 charatcer with number, symbol, small and capital letter.</p>
+          </div>
+        </div>
+        <div class="inp-field confirm-error">
+          <input
+            type="password"  id="coPass" placeholder="Enter your confirm password"/>
+          <div class="error-field">
+            <i class="fa-solid fa-circle-exclamation"></i>
+             <p class="error">Password don't match</p>
+             </div>
+        </div>
+        <button type="submit">Sign Up</button>
+      
+      </div>
+    </form>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
